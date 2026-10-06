@@ -2,6 +2,8 @@
 
 A React app that converts between 160+ currencies with live exchange rates from the [ExchangeRate-API](https://www.exchangerate-api.com/) open endpoint.
 
+**🌐 Live:** [bitayeganeh.github.io/06-Exchange-rate-API](https://bitayeganeh.github.io/06-Exchange-rate-API/)
+
 ![Converting 100 euros to US dollars, with popular currencies below](screenshots/app.png)
 
 ## Features
@@ -30,4 +32,10 @@ A React app that converts between 160+ currencies with live exchange rates from 
 ```bash
 npm install
 npm run dev
+```
+
+Deploy to GitHub Pages (builds and pushes `dist/` to the `gh-pages` branch):
+
+```bash
+npm run deploy
 ```
