@@ -1,17 +1,18 @@
-# React + Vite
+# Exchange Rate Lookup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that fetches live currency exchange rates. Type a currency code (for example `EUR`) and the app loads the rates for that currency from the [ExchangeRate-API](https://www.exchangerate-api.com/) open endpoint. Errors are shown if the code is not found.
 
-Currently, two official plugins are available:
+![Exchange rates for EUR](screenshots/app.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built with
 
-## React Compiler
+- React (`useState`, `useEffect`)
+- Axios
+- Vite
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Run locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# 06-Exchange-rate-API
+```bash
+npm install
+npm run dev
+```
