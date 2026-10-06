@@ -4,7 +4,7 @@ A React app that converts between 160+ currencies with live exchange rates from 
 
 **🌐 Live:** [bitayeganeh.github.io/06-Exchange-rate-API](https://bitayeganeh.github.io/06-Exchange-rate-API/)
 
-![Converting 100 euros to US dollars, with popular currencies below](screenshots/app.png)
+![Converting 100 euros to US dollars, with popular currencies below](screenshots/converter.png)
 
 ## Features
 
